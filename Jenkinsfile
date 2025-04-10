@@ -1,4 +1,4 @@
-peline {
+pipeline {
 agent {
 node {
 label 'nodejs'
@@ -16,4 +16,5 @@ sh 'node ./frontend/test.js'
 }
 }
 }
+
 }
